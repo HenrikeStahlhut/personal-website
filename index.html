@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Henrike Stahlhut</title>
+</head>
+<body>
+    <header>
+        <nav id="navigation">
+            <!--Name, Contact, Biography, Skills-->
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+        <h1>Hi, I'm Henrike!</h1>
+    </header>
+
+    <main>
+        <article id="layout-content">
+            <!--Photo-->
+            <section id="photo">
+                <img src="https://source.unsplash.com/random/200x200" alt="Placeholder"> 
+            </section>
+        
+            <!--Tags-->
+            <section id="interests">
+                <h3>Things I really like</h3>
+                <ul>
+                    <li>Reading</li>
+                    <li>Painting</li>
+                    <li>Video Games</li>
+                    <li>Coding</li>
+                    <li>Coffee</li>
+                    <li>Cats</li>
+                </ul>
+            </section>
+            
+            <section id="skills">
+                <h3>My skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Making really good coffee</li>
+                </ul>
+            </section>
+        </article>
+        
+        <!--About me-->
+        <section id="about-me">
+            <h3>About me</h3>
+            <p>I'm a media designer from Germany who's currently learning how to code. Welcome to my journey :)</p>
+        </section>
+
+        <!-- Socials -->
+        <article id="socials">
+            <section id="github">
+               
+            </section>
+        </article>
+        
+        <!--Contact Details-->
+        <section id="contact">
+            <h3>Contact me!</h3>
+            <!--div around contact form?-->
+            <form action="example.php">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name-field" required placeholder="Your Name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="emailadress" required placeholder="hey@example.com">
+                <label for="message">Message</label>
+                <textarea name="message" id="message-field" cols="30" rows="5" placeholder="Enter your message here..." required></textarea>
+                <input type="submit" name="submit" id="submit-form" placeholder="Submit">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <!--Impressum, Contact, Copyright etc?-->
+        <p>© Henrike Stahlhut | Impressum | Contact</p>
+    </footer>
+</body>
+</html>
