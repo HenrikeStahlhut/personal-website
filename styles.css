@@ -8,8 +8,7 @@ body {
   padding: 0;
 }
 
-#navigationlist,
-li {
+.navElement {
   display: inline;
   padding-right: 25px;
   margin-top: 15px;
