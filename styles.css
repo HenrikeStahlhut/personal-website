@@ -11,12 +11,14 @@ body {
 }
 
 /*Navigation and Headline*/
+
 #headline {
   font-family: "NewYork";
 }
 
 #navigationList {
   display: flex;
+  align-items: center;
   float: right;
   list-style: none;
   margin: 0;
@@ -24,16 +26,14 @@ body {
 }
 
 .navElement {
-  margin-top: 15px;
   font-size: 18px;
   font-family: "NewYork";
-  flex-wrap: wrap;
 }
 
 .navElementSpace {
   padding-right: 10px;
   padding-left: 10px;
-  margin-top: 15px;
+
   font-size: 18px;
 }
 
