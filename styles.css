@@ -1,23 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap");
 
+@font-face {
+  font-family: NewYork;
+  src: url(fonts/NewYork\ PERSONAL\ USE.otf);
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
+#headline {
+  font-family: "NewYork";
+}
+
 #navigationList {
+  display: flex;
+  float: right;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .navElement {
-  display: inline;
   padding-right: 25px;
   margin-top: 15px;
-  float: right;
-  /*font-family: "Climate Crisis";*/
-  font-size: 16px;
+  font-size: 18px;
+  font-family: "NewYork";
 }
 
 a {
