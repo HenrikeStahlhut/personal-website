@@ -10,25 +10,27 @@
   <body>
     <header>
       <nav id="navigation">
+        <h1 id="headline">Henrike Stahlhut</h1>
         <!--Name, Contact, Biography, Skills-->
         <ul id="navigationList">
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about-me">About</a></li>
-          <li><a href="#skills">Skills</a></li>
+          <li class="navElement"><a href="#about-me">About</a></li>
+          <li class="navElementSpace">✦</li>
+          <li class="navElement"><a href="#skills">Skills</a></li>
+          <li class="navElementSpace">✦</li>
+          <li class="navElement"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <h1>Hi, I'm Henrike!</h1>
     </header>
 
     <main>
       <article id="layout-content">
         <!--Photo-->
-        <section id="photo">
+        <!-- <section id="photo">
           <img
             src="https://source.unsplash.com/random/200x200"
             alt="Placeholder"
           />
-        </section>
+        </section>-->
 
         <!--Tags-->
         <section id="interests">
@@ -93,7 +95,6 @@
           <textarea
             name="message"
             id="message-field"
-            cols="30"
             rows="5"
             placeholder="Enter your message here..."
             required
