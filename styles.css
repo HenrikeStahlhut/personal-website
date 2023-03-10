@@ -15,16 +15,19 @@ body {
   padding-right: 25px;
   margin-top: 15px;
   float: right;
-  font-family: "Climate Crisis";
+  /*font-family: "Climate Crisis";*/
+  font-size: 16px;
 }
 
 a {
   text-decoration: none;
   color: black;
+  /*color: rgb(248, 170, 107);*/
 }
 
-a:hover {
-}
+/*a:hover {
+  text-shadow: 3px 2px #466e94;
+}*/
 
 input[type="text"] {
   padding: 10px;
